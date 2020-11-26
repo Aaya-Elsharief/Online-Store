@@ -9,7 +9,17 @@
 
 
 * {box-sizing: border-box;}
-body {font-family: Comic Sans MS, Cambria ,Candara;}
+body {
+	font-family: Comic Sans MS, Cambria ,Candara;
+/*	background: linear-gradient(#0e202e, #d2b8c8 , #a578ab,#bf979b );
+	
+	*/
+
+
+}
+
+
+
 .mySlides {display: none;}
 img {vertical-align: middle;}
 
@@ -122,6 +132,7 @@ img {vertical-align: middle;}
     text-align:justify;
 	
     left: 50%;
-    width:50%;
+    width:70%;
     height:50%;	
 }
+
