@@ -27,8 +27,26 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+.slide-text  {
+	text-align:center;
+	position: absolute;
+	bottom: 50%;
+	left: 25%;
+	width: 50%;
+	font-family: Cookie ;
+	font-size: 80px;
+	color:white;
+	text-transform: uppercase;
+	text-shadow: 0 5px 10px  rgba(185,115,100,1);
+	/*mix-blend-mode:exclusion;*/
+	box-shadow: 0 5px 10px rgba(0,0,0,1);
+	background: #a97f82 /*rgba(0,0,0,0.2) */;
+	opacity: 80%;
+	/*border-radius: 40% 10% 40% 10%;*/
+}
 
-.dots-container {
+
+.dots-container  {
   text-align:center;
   position: absolute;
   bottom: 8px;
@@ -37,7 +55,7 @@ img {vertical-align: middle;}
 
 
 /* The dots/bullets/indicators */
-.dot {
+.dot  {
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -81,9 +99,8 @@ img {vertical-align: middle;}
 .cat-img  img{
     width:160px ;
     height: 170px;
-   
 	border : 1px solid #f2ebec;
-	border-radius: 20px;
+	border-radius: 10px;
     margin: 5px ;
 	align-self: center;
     }
@@ -102,19 +119,23 @@ img {vertical-align: middle;}
 }
 
 .cat-img span {
+/*	
+	background-color: white;
+	
+	
+	*/
+	border-radius: 10px;
 	text-align: center;
     display:inline-block;
-	background-color: #ebdfe1;
-	border-radius: 20px;
-	color: #2c435a;
+    color: #2c435a;
 	
 }
 
-.cat-img span:hover , .cat-img  img:hover {
+.cat-img:hover span , .cat-img:hover  img {
 	
 	border : 1px solid #bf979b;
    box-shadow: 2px 2px 2px  #bf979b;
-	background-color: #bf979b;
+/*	background-color: #bf979b;*/
 }
 
 .catagory{
