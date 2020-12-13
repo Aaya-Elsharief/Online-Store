@@ -1,4 +1,6 @@
+ 
  body{
+ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,8 +13,7 @@ html,body{
   place-items: center;
   background: url(../media/login/nn.jpg)
    
-  
-   
+ 
 }
 ::selection{
     background: #4158d0;
@@ -92,7 +93,10 @@ form .content .checkbox{
 form .content input{
   width: 15px;
   height: 15px;
+ 
   background:  rgb(255, 0, 0);
+ 
+  
 }
 form .content label{
   color: #262626;
