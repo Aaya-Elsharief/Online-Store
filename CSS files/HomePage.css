@@ -1,670 +1,678 @@
 
+
 * {
-    box-sizing: border-box;
-  }
-  
-  body{
-      margin: 0;
-      padding: 0;
-      font-family: 'Montserrat', sans-serif;
-    background-attachment: fixed;
-  }
-  
-  header{
-      position: relative;
-      margin: 0px ;
-      padding: 5px;
-      height: 140px;
-      background: #fff;
-      box-sizing: border-box;
-      box-shadow: 0 2px 5px rgba(0,0,0,.2);
-  
-  }
-  
-  
-  .logo{
-      color: #069370;
-      height:60px;
-      font-size: 36px;
-      line-height: 60px;
-      padding: 0 20px;
-      text-align: center;
-      box-sizing: border-box;
-      font-family: 'Montserrat', sans-serif;
-      float: left;
-      font-weight: 700;
-      text-decoration: none;
-  }
-  
-  .navbar {
-    margin: 5.5pc;
-     margin-left: 20pc;
-     margin-right: 15pc;
-     overflow: hidden;
-     background-color: #fff;
-     font-family: 'Montserrat', sans-serif;
-   }
-   
-   .navbar a {
-     float: left;
-     font-size:15px;
-     padding: 14px 16px;
-     display:inline ;
-   color:#069370 ;
-     text-decoration: none;
-   }
-   
-   .dropdown {
-     float: left;
-     overflow: hidden;
-   }
-   
-   .dropdown .dropbtn {
-     font-size:1px; 
-     border: none;
-     outline: none;
-     font-family: 'Montserrat', sans-serif;
-     color:#069370 ;
-      padding: 14px 16px;
-     background-color: inherit;
-     font: inherit;
-     margin: 0;
-   }
-   
-   .navbar a:hover, .dropdown:hover .dropbtn  {
-     background: PeachPuff;
-     color:#fff;
-     transition: 0.5s;
-   }
-   
-   .dropdown-content {
-     display: none;
-     position: absolute;
-     background-color: #f9f9f9;
-     width: 100%;
-     left: 0;
-     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-     z-index: 1;
-   }
-   
-   .dropdown:hover .dropdown-content {
-     display: block;
-   }
-   
-   /* Create three equal columns that floats next to each other */
-   .column {
-     float: left;
-     width: 33.3%;
-     text-align: left;
-     background-color: #ffff;
-     height: 250px;
-   }
-   
-   .column a {
-     float: none;
-     color: #069370;
-     padding: 5px;
-     text-decoration: none;
-     display: block;
-     text-align: center;
-   }
-   
-   /* Clear floats after the columns */
-   .row:after {
-     content: "";
-     display: table;
-     clear: both;
-   }
-   
-   /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-   @media screen and (max-width: 600px) {
-     .column {
-       width: 100%;
-       height: auto;
-     }
-   }
-  
-  
-  
-  /*  Start search bytton */
-  .search{
-      border:3px solid #069370;
-      height: 30px;
-    width:330px;
-      font-family: 'Montserrat', sans-serif;
-      border-radius: 60px;
-      background-color: white;
-      background-image: url('searchicon.png');
-      background-position: 10px 10px; 
-      background-repeat: no-repeat;
-      padding: 12px 20px 14px 40px;
-      -webkit-transition: width 0.4s ease-in-out;
-      transition: width 0.4s ease-in-out;
-   }
-  
-  .search-btn {
-      float: right;
-  } 
-  
-   .search-btn ul{
-       float: right;
-      color:#069370;
-    padding-top: 1.5pc;
-    padding-right: 8pc;
-  
-   }
-  
-  .search-btn ul li{
-      position: relative;
-      font-size:12px;
-      list-style: none;
-      display: block;
-      font-family: 'Montserrat', sans-serif;
-  
-  }
-  
-  /*  Start search bytton */
-  
-  
-  
-  /*  Start sign/in bytton */
-  .icon-bar  {
-    width: 98%;
-    overflow: right;
-  }
-  
-  .icon-bar a{
-    float: right;
-    font-family: 'Montserrat', sans-serif;
-    width: 12%;
-    text-align: right;
-    padding: 10px 1px 1px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-    color:#069370;
-    font-size: 14px;
-  }
-  
-  .icon-bar a:hover {
-    background: #ffff;
-      color:Yellow	;
-      transition: 0.5s;
-  }
-  
-  /*  end sign/in bytton */
-  
-  
-  
-  /****************  start NavSide **********************/
-   
-  /*  start asideNav*/
-  #mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 15px;
-    width: 110px;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: white;
-    border-radius: 0 5px 5px ;
-  }
-  
-  #mySidenav a:hover {
-    left: 0;
-  }
-  
-  #Gifts{
-    top: 200px;
-    background-color: LightSalmon;
-  }
-  
-  #New {
-    top: 260px;
-    background-color: Gold;
-  }
-  
-  #Clothes{
-    top: 320px;
-    background-color:DarkKhaki;
-  }
-  
-  #Dresses {
-    top: 380px;
-    background-color: MediumPurple;
-  }
-  
-  #Jeanes {
-    top: 440px;
-    background-color:PaleGreen;
-  }
-  
-  #Shoes {
-    top: 445px;
-    background-color:SandyBrown;
-  }
-  
-  
-  /*  end asideNav*/
-  /****************  End NavSide *******************************/
-  
-  
-  /*********************  Start main page **********************/
-  
-  /****  ads style ****/
-  .adsSlid{
-    margin-bottom: 15px;
-    padding: 10px 30px;
-  
-   
-  }
-  
-  .adsslid1 {
-    border-left: 10px;
-    
-  }
-  
-  .adSlide2 {
-    border-left: 10px;
-    display:table;
-  
-  }
-  
-  .Adcolumn {
-    float: left;
-    width: 25%;
-    padding: 10px;
-  }
-  /******  End ads style *******/
-  
-  
-  
-  
-  
-  /***** START ImageGRID style ******/
-  
-  .imageGrid{
-    padding:40px;
-    }
-    
-    /* Left column */
-    .leftcolumn {   
-      float: left;
-      width: 66%;
-   }
-    
-    /* Right column */
-    .rightcolumn {
-      float: left;
-      width: 34%;
-      padding-left: 20px;
-       }
-     
-     p1 ,p{
-      text-align: left;
-       font-size:10px;
-       padding-left:5px;
-        font-family: 'Montserrat', sans-serif;
-      }
-      
-      
-     p2{
-      text-align: left;
-       font-size:18px;
-       padding-left:5px;
-      font-family: 'Montserrat', sans-serif;
-      }
-      
-  
-    .img {
-      background-color: #aaa;
-      width:100%;
-     
-    }
-    
-  
-    .card1,.card2,.card3 {
-       background-color: white;
-       margin-top: 10px;
-    }
-    
-    .card4,.card5,.card6,.card7 {
-       background-color: white;
-       padding-bottom: 2px;
-       margin-top: 10px;
-    }
-    
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-    
-    a {
-      color: hotpink;
-       padding-left:5px;
-    }
-    
-    
-    @media screen and (max-width: 800px) {
-      .leftcolumn, .rightcolumn {   
-        width: 100%;
-        padding: 0;
-      }
-      
-    }
-  
-   /***** End ImageGRID style******/
-  
-  
-  
-  
-  
-   /* Start horizontal SlidImage style*/
-  
-   .horizontalSlidImage {
-    padding-top: 20px;
-    padding: 5px;
-    padding-left: 2px;
-    padding-right: 80px;
-  
-  
-  }
-  
-  .content {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+  background-attachment: fixed;
+}
+
+header{
     position: relative;
-  }
-  
-  .rowImage {
-    margin: 0px -5px;
-  }
-  
-  
-  .text-block {
-    position: absolute;
-    bottom: 20px;
-    font-size:13px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #fff;
-    border: 2px solid #000;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  
-  
-  a{
-   color:Goldenrod;
-  }
-  
-  a:hover{
-   color:RosyBrown;
-   text-decoration: none;
-  }
-  
-  /* four columns  */
-  .column {
-    float: left;
-    width: 25%;
-  }
-  
-  
-  @media screen and (max-width:400px) {
-    .column {
-      width: 40%;
-      float: center;
-  
-    }
-    .text-block {
-    padding-left: 0px;
-    padding-right:0px;
-     bottom: 2px;
-    }
-   
-  }
-   /* End horizontal SlidImage style*/
-  
-  
-  
-  
-   /*****  Start Read More  ****/
-   .ReadMore{
+    margin: 0px ;
     padding: 5px;
-   padding-left: 80px;
-   padding-top: 450px;
-  
-  }
-  
-  div.symbol1 {
+    height: 130px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
+}
+
+
+.logo{
+    color: #839690;
+    height:60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.navbar {
+   margin: 4.8pc;
+   margin-left: 21pc;
+   overflow: hidden;
+   background-color: #fff;
+   font-family: 'Montserrat', sans-serif;
+ }
+ 
+ .navbar a {
    float: left;
-   width: 299px;
-   padding:10px;
+   font-size:14px;
+   padding: 14px 16px;
+   display:inline ;
+   color:#e79796;
+   text-decoration: none;
+ }
+ 
+ .dropdown {
+   float: left;
+   overflow: hidden;
+ }
+ 
+ .dropdown .dropbtn {
+   font-size:1px; 
+   border: none;
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+   color:DarkGray;
+   padding: 14px 16px;
+   background-color: inherit;
+   font: inherit;
+   margin: 0;
+ }
+ 
+ .navbar a:hover, .dropdown:hover .dropbtn  {
+  color:#e79796;
+  transition: 0.5s;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #ffff;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   left: 0pc;
+   box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+   margin:0.11pc;
+   padding-left:10pc;
+
+ }
+ 
+ .column {
+   float: left;
+   font-family: 'Montserrat', sans-serif;
+   width:33.3%;
+   background-color: #ffff;
+   color: SlateGray;
+   height: 230px;
+ }
+ 
+ .column a {
+  margin: 11px;
+   float: none;
+   text-decoration: none;
+   display: block;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: SlateGray; 
+ }
+ 
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+     height: auto;
    }
-   
-   
-   div.symbol1 img {
-   width: 91%;
-   height: auto;
-   }
-   
-    
-     .p1 , .p3{
-      text-align: left;
-         font-size:13.5px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    
-    .p2 {
-        text-align: left;
-         font-size:16px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
+ }
+
+
+
+/*  Start search bytton */
+.search{
+	border:2px solid 	#bcceb8;
+	height: 30px;
+  width:380px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 60px;
+    padding: 12px 30px 12px 80px;
+    font-size:14px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ }
+
+.search-btn {
+  float: right;
+
+} 
+
+ .search-btn ul{
+	color:#069370;
+  padding-top: 0.9pc;
+  padding-right: 8pc;
+
+ }
+
+.search-btn ul li{
+	position: relative;
+  list-style: none;
+	font-family: 'Montserrat', sans-serif;
+
+}
+/*  End search bytton */
+
+
+
+/*  Start sign/in bytton */
+.icon-bar  {
+  width: 98%;
+  overflow: right;
+}
+
+.icon-bar a{
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  width: 12%;
+  text-align: right;
+  padding: 10px 1px 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color:#839690;
+  font-size: 14px;
+}
+
+.icon-bar a:hover {
+  background: #ffff;
+	color:#e79796;
+	transition: 0.5s;
+}
+/*  end sign/in bytton */
+
+
+
+/****************  start NavSide **********************/
+ 
+
+/*  start asideNav*/
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 110px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 5px 5px ;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Gifts{
+  top: 200px;
+  background-color: #edcfc4;
+}
+
+#New {
+  top: 260px;
+  background-color: #839690;
+}
+
+#Clothes{
+  top: 320px;
+  background-color:#dadee1;
+}
+
+#Dresses {
+  top: 380px;
+  background-color: #bcceb8;
+}
+
+#Jeanes {
+  top: 440px;
+  background-color:#6a6260;
+}
+
+#Shoes {
+  top: 445px;
+  background-color:#e1b0a2;
+}
+
+
+/*  end asideNav*/
+/****************  End NavSide *******************************/
+
+
+/*********************  Start main page **********************/
+
+/****  ads style ****/
+.adsSlid{
+  margin-bottom: 15px;
+  padding: 10px 30px;
+
+ 
+}
+
+.adsslid1 {
+  border-left: 10px;
   
-    .p4{
-      text-align: left;
-         font-size:18px;
-       padding-left:10px;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-      a{
-      color: LightSalmon;
-      background-color: transparent;
-    }
-    
-    
-      a:hover {
-      color: LightCoral;
-      text-decoration: none;
-      
-      } 
-   
-    
-  @media screen and (max-width:400px) {
-    .ReadMore{
-      margin: 5px;
-    }
-    div.symbol1 {
-      float: left;
-      width: 150px;
-      padding:2px;
-      }
-      
-   
+}
+
+.adSlide2 {
+  border-left: 10px;
+  display:table;
+
+}
+
+.Adcolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+/******  End ads style *******/
+
+
+
+
+
+/***** START ImageGRID style ******/
+
+.imageGrid{
+  padding:40px;
   }
-    /*  End Raed More */
-  
-  
-  
-  /** Subscribe && email start **/
-  .EmailAcount {
-    padding: 40px;
-    padding-top: 20px;
-  
-  }
-  
-   p{
-    text-align: left;
-     font-size:18px;
-     padding-left:10px;
-       font-family: 'Montserrat', sans-serif;
-    }
-    
-     p1{
-     font-size:11px;
-     padding-left: 15px;
-       font-family: 'Montserrat', sans-serif;
-    }
   
   /* Left column */
-  .SUBSCRIBRcolumn {   
+  .leftcolumn {   
     float: left;
-    width: 45%;
-  
-    
-  }
+    width: 66%;
+ }
   
   /* Right column */
-  .GMAILcolumn {
+  .rightcolumn {
     float: left;
-    width: 55%;
-    padding-left: 10px;
-  
+    width: 34%;
+    padding-left: 20px;
+     }
+   
+   p1 ,p {
+    text-align: left;
+     font-size:12px;
+     padding-left:5px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+   p2{
+    text-align: left;
+     font-size:18px;
+     padding-left:5px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+
+  .img {
+    background-color: #aaa;
+    width:100%;
+   
   }
   
-  
-  /* Add a card effect for articles */
-  .cardEmail,.cardSubscrib {
+
+  .card1,.card2,.card3 {
      background-color: white;
-     padding: 15px;
      margin-top: 10px;
   }
   
-  /* Clear floats after the columns */
-  .EmailAcount :after {
+  .card4,.card5,.card6,.card7 {
+     background-color: white;
+     padding-bottom: 2px;
+     margin-top: 10px;
+  }
+  
+  .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  
-  label{
-    text-align: left;
-    font-size:13.5px;
-    padding-left:10px;
-    font-family: 'Montserrat', sans-serif;
-    }
-    
-  .button {
-    color: Salmon;
-    padding: 15px 80px;
-    text-align: right;
-    font-size: 12px;
-    margin: 5px 10px;
-    font-family: 'Montserrat', sans-serif;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    
-  }
-  
-  .Submitbutton {
-    background-color: Pink; 
-    color: black; 
-    border: 2px solid Pink;
-  }
-  
-  .Submitbutton:hover {
-    background-color: #FFF;
-    border: 1px solid black;
-  }
-  
-   .Gmail {
-    color: Salmon;
-    padding: 14px 100px;
-    text-align: left;
-    margin: 5px 2px;
-     border: 1px solid DeepPink;
-  
+  a {
+    color: #839690;
+     padding-left:5px;
   }
   
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
-    .SUBSCRIBRcolumn, .GMAILcolumn {   
+    .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
     }
     
-    .Gmail {
-    padding: 14px 200px;
-    margin: 5px 7px;
+  }
+
+ /***** End ImageGRID style******/
+
+
+
+
+
+ /* Start horizontal SlidImage style*/
+
+ .horizontalSlidImage {
+  padding-top: 20px;
+  padding: 5px;
+  padding-left: 2px;
+  padding-right: 80px;
+
+
+}
+
+.content {
+  position: relative;
+}
+
+.rowImage {
+  margin: 0px -5px;
+}
+
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  font-size:13px;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+a{
+ color:Goldenrod;
+}
+
+a:hover{
+ color:RosyBrown;
+ text-decoration: none;
+}
+
+/* four columns  */
+.column {
+  float: left;
+  width: 25%;
+}
+
+
+@media screen and (max-width:400px) {
+  .column {
+    width: 40%;
+    float: center;
+
+  }
+  .text-block {
+  padding-left: 0px;
+  padding-right:0px;
+   bottom: 2px;
+  }
+ 
+}
+ /* End horizontal SlidImage style*/
+
+
+
+
+ /*****  Start Read More  ****/
+ .ReadMore{
+  padding: 5px;
+ padding-left: 80px;
+ padding-top: 450px;
+
+}
+
+div.symbol1 {
+ float: left;
+ width: 299px;
+ padding:10px;
+ }
+ 
+ 
+ div.symbol1 img {
+ width: 91%;
+ height: auto;
+ }
+ 
   
+   .p1 , .p3 {
+	text-align: left;
+	   font-size:13.5px;
+	  font-family: 'Montserrat', sans-serif;
   }
   
   
-  .button {
-    padding: 15px 260px;
-    font-size: 12px;
-   margin: 5px 7px;
-  
+  .p2 {
+	  text-align: left;
+	   font-size:16px;
+	  font-family: 'Montserrat', sans-serif;
   }
-   } 
   
-  /** Subscribe && email End **/
-  /*************  End main page ****************/
+
+  .p4{
+    text-align: left;
+	   font-size:18px;
+     padding-left:10px;
+	  font-family: 'Montserrat', sans-serif;
+  }
+  
+    a{
+	color: LightSalmon;
+  background-color: transparent;
+  font-size:13px;
+  padding-left:15px;
+	  font-family: 'Montserrat', sans-serif;
+
+
+  }
   
   
-  /************* Start footer **************/
-  /* Footer */
+    a:hover {
+	color: LightCoral;
+	text-decoration: none;
+    
+	} 
+ 
   
-  .FottorMenu {
-    font-family: 'Montserrat', sans-serif;
-       font-size: 14px;
-   }
-   
-   .FottorMenu a {
-     float: left;
-     font-size: 13px;
-     color: white;
-     text-align: center;
-     text-decoration: none;
-     
-   }
-   
-   /* Create three equal columns that floats next to each other */
-   .column {
-     float: right;
-     padding-left:50px;
-     width: 24%;
-     background-color: #fff;
-     height: outo;
-   }
-   
-   .column a {
-     float: none;
-     color: black;
-     padding: 5px;
-     display: block;
-     text-align: left;
-     padding-left:2px;
+@media screen and (max-width:400px) {
+  .ReadMore{
+    margin: 5px;
+  }
+  div.symbol1 {
+    float: left;
+    width: 150px;
+    padding:2px;
+    }
+    
+ 
+}
+  /*  End Raed More */
+
+
+
+/** Subscribe && email start **/
+.EmailAcount {
+  padding: 40px;
+  padding-top: 20px;
+
+}
+
+ p{
+  text-align: left;
+   font-size:18px;
+   padding-left:10px;
+	 font-family: 'Montserrat', sans-serif;
+  }
   
-   }
+   p1{
+   font-size:11px;
+   padding-left: 15px;
+	 font-family: 'Montserrat', sans-serif;
+  }
+
+/* Left column */
+.SUBSCRIBRcolumn {   
+  float: left;
+  width: 45%;
+
+  
+}
+
+/* Right column */
+.GMAILcolumn {
+  float: left;
+  width: 55%;
+  padding-left: 10px;
+
+}
+
+
+/* Add a card effect for articles */
+.cardEmail,.cardSubscrib {
+   background-color: white;
+   padding: 15px;
+   margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.EmailAcount :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+label{
+  text-align: left;
+  font-size:13.5px;
+  padding-left:10px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+.button {
+  color: Salmon;
+  padding: 15px 80px;
+  text-align: right;
+  font-size: 12px;
+  margin: 5px 10px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.Submitbutton {
+  background-color: Pink; 
+  color: black; 
+  border: 2px solid Pink;
+}
+
+.Submitbutton:hover {
+  background-color: #FFF;
+  border: 1px solid black;
+}
+
+ .Gmail {
+  color: Salmon;
+  padding: 14px 100px;
+  text-align: left;
+  margin: 5px 2px;
+   border: 1px solid DeepPink;
+
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .SUBSCRIBRcolumn, .GMAILcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  
+  .Gmail {
+  padding: 14px 200px;
+  margin: 5px 7px;
+
+}
+
+
+.button {
+  padding: 15px 260px;
+  font-size: 12px;
+ margin: 5px 7px;
+
+}
+ } 
+
+/** Subscribe && email End **/
+/*************  End main page ****************/
+
+
+/************* Start footer **************/
+/* Footer */
+
+.FottorMenu {
+  font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+ }
+ 
+ .FottorMenu a {
+   float: left;
+   font-size: 13px;
+   color: white;
+   text-align: center;
+   text-decoration: none;
    
-   
-   .column a:hover {
-     background-color: #fff;
-     text-decoration: underline; ;
-   }
-   
-   /* Clear floats after the columns */
-   .row:after {
-     content: "";
-     display: table;
-     clear: both;
-   }
+ }
+ 
+ /* Create three equal columns that floats next to each other */
+ .column {
+   float: right;
+   padding-left:50px;
+   width: 24%;
+   background-color: #fff;
+   height: outo;
+ }
+ 
+ .column a {
+   float: none;
+   color: black;
+   padding: 5px;
+   display: block;
+   text-align: left;
+   padding-left:2px;
+
+ }
+ 
+ 
+ .column a:hover {
+   background-color: #fff;
+   text-decoration: underline; ;
+ }
+ 
+ /* Clear floats after the columns */
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+
+
+ 
    
   
   
