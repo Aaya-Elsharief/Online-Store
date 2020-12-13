@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-body{
+ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +12,7 @@ html,body{
   background: url(../media/login/nn.jpg)
    
   
-  /* background: linear-gradient(-135deg, #c850c0, #4158d0); */
+   
 }
 ::selection{
     background: #4158d0;
