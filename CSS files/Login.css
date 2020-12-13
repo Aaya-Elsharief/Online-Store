@@ -92,7 +92,7 @@ form .content .checkbox{
 form .content input{
   width: 15px;
   height: 15px;
-  background: red;
+  background:rgb(255, 0, 0);
 }
 form .content label{
   color: #262626;
