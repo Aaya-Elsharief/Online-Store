@@ -92,9 +92,9 @@ for (var i =0 ; i<pro.length ; i++){
 		const product_info_top = document.createElement('div');
 		product_info_top.classList.add('product-info-top');
 
-		const h2Title = document.createElement('h2');
-		h2Title.classList.add('sm-title');
-		h2Title.textContent = pro[i].productsName;
+	//	const h2Title = document.createElement('h2');
+	//	h2Title.classList.add('sm-title');
+	//	h2Title.textContent = pro[i].productsName;
 	
 	   
 		const rating = document.createElement('div');
@@ -147,7 +147,7 @@ for (var i =0 ; i<pro.length ; i++){
 		rating.appendChild(rating_span);
 
 		product_info_top.appendChild(rating);
-		product_info_top.appendChild(h2Title);
+	//	product_info_top.appendChild(h2Title);
 
 		product_info.appendChild(product_info_top);
 		product_info.appendChild(product_name);
