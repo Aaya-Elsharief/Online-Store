@@ -15,6 +15,24 @@
 		"product_price_off":"$166",
 		"off":"30% off"
 		
+	},
+	
+	{
+		"src":  "../media/furnture/tables.jpg",
+		"productsName": "Table",
+		"product_price": "$172",
+		"product_price_off":"$166",
+		"off":"30% off"
+		
+	},
+	
+	{
+		"src":  "../media/furnture/tables.jpg",
+		"productsName": "Table",
+		"product_price": "$172",
+		"product_price_off":"$166",
+		"off":"30% off"
+		
 	}
 	
 	]
