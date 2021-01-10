@@ -7,7 +7,7 @@
     font-size: 20px;
     margin: 0;
     }
-    .navbar {
+    /*.navbar {
     overflow: hidden;
     background-color:#e6dbdd87;
     }
@@ -29,7 +29,7 @@
     .navbar a:hover {
     background-color: whitesmoke;
     color: black;
-    }
+    } */
     
     
     .row {
@@ -112,7 +112,7 @@
     background-color: white;
     }
     
-    button{
+   /* button{
     background-color: #8e7da1;
     color:black;
     border-radius: 12px;
@@ -124,23 +124,42 @@
     height: 70px;
      
      
-    }
+    }  
     /*.button :hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
       }*/
+      button{
+        background-color: #8e7da1;
+        color:black;
+       /* border-radius: 12px;*/
+        font-size: 15px;
+        width: 200px;
+        padding:12px 28px;
+        border:whitesmoke;
+        margin:40px;
+        height: 70px;
+         
+         
+        }
+    
+    
+    .btn-buy:hover, .btn-cart:hover{
+        background: #863e83;
+        color: #fff;
+    }
     .fakeimg {
     background-color: whitesmoke;
     width: 100%;
     padding: 20px;
     }
-    
+    /*
     .footer {
       width: 100%;
     padding: 20px;
     text-align: center;
     background: #e6dbdd87;
     }
-    
+    */
     
     
     @media screen and (max-width: 700px) {

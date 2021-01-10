@@ -1,0 +1,170 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"test"},
+{"type":"table","name":"images","database":"test","data":
+[
+	
+{
+
+	"id":"1",
+	"img1":"\/media\/furnture\/furnture2.jpg",
+	"img2":"\/media\/furnture\/3.jpg",
+	"img3":"\/media\/furnture\/2.jpg",
+	"img4":"\/media\/furnture\/4.jpg",
+	"product_id":"1"
+
+},
+{
+	"id":"2",
+ "img1":"\/media\/electronics\/watch0.jpg",
+ "img2":"\/media\/electronics\/watch1.jpg",
+ "img3":"\/media\/electronics\/watch2.jpeg",
+	"img4":"\/media\/electronics\/watch3.jpg",
+	"product_id":"3"
+
+},
+{
+
+	"id":"3",
+	"img1":"\/media\/electronics\/canon.jpg",
+	"img2":"\/media\/electronics\/canon4.jpg",
+	"img3":"\/media\/electronics\/canon1.jpg",
+	"img4":"\/media\/electronics\/canon2.jpg",
+	"product_id":"2"
+
+},
+{
+
+	"id":"4",
+	"img1":"\/media\/perfume\/s0.jpg",
+	"img2":"\/media\/perfume\/s1.jpg",
+	"img3":"\/media\/perfume\/s2.jpg",
+	"img4":"\/media\/perfume\/s3.jpg",
+	"product_id":"4"
+
+},
+{
+
+	"id":"5",
+	"img1":"\/media\/perfume\/7.jpg",
+	"img2":"\/media\/perfume\/8.jpg",
+	"img3":"\/media\/perfume\/4.jpg",
+	"img4":"\/media\/perfume\/6.jpg",
+	"product_id":"5"
+
+},
+{
+
+	"id":"6",
+	"img1":"\/media\/furnture\/desks\/desk2.jpg",
+	"img2":"\/media\/furnture\/desks\/desk3.jpg",
+	"img3":"\/media\/furnture\/desks\/desk5.jpg",
+	"img4":"\/media\/furnture\/desks\/desk8.jpg",
+	"product_id":"6"
+
+},
+{
+
+	"id":"7",
+	"img1":"\/media\/jewelary\/3.jpg",
+	"img2":"\/media\/jewelary\/7.jpg",
+	"img3":"\/media\/jewelary\/8.jpg",
+	"img4":"\/media\/jewelary\/5.jpg",
+	"product_id":"7"
+
+},
+{
+
+	"id":"8",
+	"img1":"\/media\/jewelary\/4.jpg",
+	"img2":"\/media\/jewelary\/0.jpg",
+	"img3":"\/media\/jewelary\/1.jpg",
+	"img4":"\/media\/jewelary\/2.jpg",
+	"product_id":"8"
+
+},
+{
+
+	"id":"9",
+	"img1":"\/media\/sh\/1.jpg",
+	"img2":"\/media\/sh\/2.jpg",
+	"img3":"\/media\/sh\/3.jpg",
+	"img4":"\/media\/sh\/4.jpg",
+	"product_id":"9"
+
+},
+{
+
+	"id":"10",
+	"img1":"\/media\/sh\/sh0.jpg",
+	"img2":"\/media\/sh\/sh1.jpg",
+	"img3":"\/media\/sh\/sh2.jpg",
+	"img4":"\/media\/sh\/sh3.jpg",
+	"product_id":"10"
+
+},
+{
+
+	"id":"11",
+	"img1":"\/media\/health\/6.jpg",
+	"img2":"\/media\/health\/1.jpg",
+	"img3":"\/media\/health\/8.jpg",
+	"img4":"\/media\/health\/10.jpg",
+	"product_id":"11"
+
+},
+{
+
+	"id":"12",
+	"img1":"\/media\/health\/2.jpg",
+	"img2":"\/media\/health\/3.jpg",
+	"img3":"\/media\/health\/5.jpg",
+	"img4":"\/media\/health\/7.jpg",
+	"product_id":"12"
+
+},
+{
+
+	"id":"13",
+	"img1":"\/media\/baby\/baby3.jpg",
+	"img2":"\/media\/baby\/baby4.jpg",
+	"img3":"\/media\/baby\/baby2.jpg",
+	"img4":"\/media\/baby\/baby1.png",
+	"product_id":"13"
+
+},
+{
+
+	"id":"14",
+	"img1":"\/media\/baby\/3.jpg",
+	"img2":"\/media\/baby\/0.jpg",
+	"img3":"\/media\/baby\/1.jpg",
+	"img4":"\/media\/baby\/2.jpg",
+	"product_id":"14"
+
+},
+{
+
+	"id":"15",
+	"img1":"\/media\/watch\/0.jpg",
+	"img2":"\/media\/watch\/1.jpg",
+	"img3":"\/media\/watch\/2.jpg",
+	"img4":"\/media\/watch\/3.jpg",
+	"product_id":"15"
+
+},
+{
+
+	"id":"16",
+	"img1":"\/media\/watch\/7.jpg",
+	"img2":"\/media\/watch\/8.jpg",
+	"img3":"\/media\/watch\/9.jpg",
+	"img4":"\/media\/watch\/10.jpg",
+	"product_id":"16"
+
+}
+
+
+]
+}
+]
