@@ -1,0 +1,55 @@
+ <div class="wrapper">
+            <div class="title"> Login Form</div>
+
+        @if(isset(Auth::user()->email))
+            <script>window.location="/main/successlogin";</script>
+        @endif
+
+        @if ($message = Session::get('error'))
+            <div class="alert alert-danger alert-block">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                <strong>{{ $message }}</strong>
+            </div>
+        @endif
+
+        @if (count($errors) > 0)
+            <div class="alert alert-danger">
+                <ul>
+                    @foreach($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
+            <form method="post" action="{{ url('/login/checklogin') }}" >
+                {{ csrf_field() }}
+                <div class="field">
+                    <input type="email" name="email" class="form-control" />
+                    <label>Email Address</label>
+                </div>
+
+                <div class="field">
+                    <input type="password" name="password" class="form-control"/>
+                    <label>Password</label>
+                </div>
+
+                <div class="content">
+                    <div class="checkbox">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me">Remember me</label>
+                    </div>
+                    <div class="pass-link">
+                        <a href="#">Forgot password?</a></div>
+                </div>
+
+                <div class="field">
+                    <input type="submit" name="login" class="btn btn-primary" value="Login" />
+                </div>
+
+                <div class="signup-link">
+                    Not a member? <a href="#">Signup now</a>
+                </div>
+
+            </form>
+    </div>
