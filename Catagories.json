@@ -1,0 +1,51 @@
+[{
+		"id" : 3 ,
+	    "catagory_name" : "Furniture" 
+		
+	},
+ 
+ {
+		"id" : 4 ,
+	    "catagory_name" : "BabyGifts" 
+		
+	},
+ 
+ {
+		"id" : 5 ,
+	    "catagory_name" : "Health" 
+		
+	},
+ 
+ {
+		"id" : 6 ,
+	    "catagory_name" : "Shoes" 
+		
+	},
+ 
+ {
+		"id" : 7 ,
+	    "catagory_name" : "Accessor" 
+		
+	},
+ 
+ {
+		"id" : 8 ,
+	    "catagory_name" : "Watchs" 
+		
+	},
+ 
+ {
+		"id" : 9 ,
+	    "catagory_name" : "Electronics" 
+		
+	},
+ 
+ {
+		"id" : 10 ,
+	    "catagory_name" : "Berfume" 
+		
+	},
+	
+	
+	
+	]

@@ -1,0 +1,656 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+  background-attachment: fixed;
+}
+
+header{
+    position: relative;
+    margin: 0px ;
+    padding: 2px;
+    height: 135px;
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+
+}
+
+
+.logo{
+    color: #839690;
+    height:60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+.navbar {
+   margin: 4pc;
+ /*  margin-left: 5pc;
+  */ overflow: hidden;
+   background-color: #fff;
+   font-family: 'Montserrat', sans-serif;
+    padding: 0;
+ }
+ 
+ .navbar a {
+   float: left;
+   font-size:12px;
+
+   display:inline ;
+   color:#e79796;
+   text-decoration: none;
+ }
+ 
+ .dropdown {
+   float: left;
+   overflow: hidden;
+ }
+ 
+ .dropdown .dropbtn {
+   font-size:1px; 
+   border: none;
+   outline: none;
+   font-family: 'Montserrat', sans-serif;
+   color:DarkGray;
+   padding: 14px 16px;
+   background-color: inherit;
+   font: inherit;
+   margin: 0;
+ }
+ 
+ .navbar a:hover, .dropdown:hover .dropbtn  {
+  color:#e79796;
+  transition: 0.5s;
+ }
+ 
+ .dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #ffff;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 12px;
+   left: 0pc;
+   box-shadow: 10px 8px 16px 0px rgba(0,0,0,0.2);
+   z-index: 1;
+ }
+ 
+ .dropdown:hover .dropdown-content {
+   display: block;
+   margin:0.11pc;
+   padding-left:10pc;
+
+ }
+ 
+ .column {
+   float: left;
+   font-family: 'Montserrat', sans-serif;
+   width:33.3%;
+   background-color: #ffff;
+   color: SlateGray;
+   height: 230px;
+ }
+ 
+ .column a {
+  margin: 11px;
+   float: none;
+   text-decoration: none;
+   display: block;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    color: SlateGray; 
+ }
+ 
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+ @media screen and (max-width: 600px) {
+   .column {
+     width: 100%;
+     height: auto;
+   }
+
+ }
+
+
+
+/*  Start search bytton */
+.search{
+	border:2px solid 	#bcceb8;
+	height: 30px;
+  width:380px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 60px;
+    padding: 12px 30px 12px 80px;
+    font-size:14px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+ }
+
+.search-btn {
+  float: right;
+
+} 
+
+ .search-btn ul{
+	color:#069370;
+  padding-top: 0.9pc;
+  padding-right: 8pc;
+
+ }
+
+.search-btn ul li{
+	position: relative;
+  list-style: none;
+	font-family: 'Montserrat', sans-serif;
+
+}
+/*  End search bytton */
+
+
+
+/*  Start sign/in bytton */
+.icon-bar  {
+  width: 98%;
+  overflow: right;
+}
+
+.icon-bar a{
+  float: right;
+  font-family: 'Montserrat', sans-serif;
+  width: 12%;
+  text-align: right;
+  padding: 10px 1px 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  color:#839690;
+  font-size: 14px;
+}
+
+.icon-bar a:hover {
+  background: #ffff;
+	color:#e79796;
+	transition: 0.5s;
+}
+/*  end sign/in bytton */
+
+
+
+/****************  start NavSide **********************/
+ 
+
+/*  start asideNav*/
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 110px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: white;
+  border-radius: 0 5px 5px ;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#Gifts{
+  top: 150px;
+  background-color: #edcfc4;
+}
+
+#Clothes {
+  top: 210px;
+  background-color: #839690;
+}
+
+#Furniture{
+  top: 270px;
+  background-color:#dadee1;
+}
+
+#Baby {
+  top: 330px;
+  background-color: #bcceb8;
+}
+
+#Health {
+  top: 390px;
+  background-color:#6a6260;
+}
+
+#Shoes {
+  top: 450px;
+  background-color:#e1b0a2;
+}
+
+#Accessor{
+  top: 510px;
+  background-color: #edcfc4;
+}
+
+#Smart {
+  top: 570px;
+  background-color: #839690;
+}
+
+#Electronices{
+  top: 630px;
+  background-color:#dadee1;
+}
+
+#Berfume {
+  top: 690px;
+  background-color: #bcceb8;
+}
+
+
+
+
+/*  end asideNav*/
+/****************  End NavSide *******************************/
+
+
+/*********************  Start main page **********************/
+
+/****  ads style ****/
+.adsSlid{
+  margin-bottom: 15px;
+  padding: 10px 40px;
+
+ 
+}
+
+.adsslid1 {
+  border-left: 40px;
+  
+}
+
+.adSlide2 {
+  border-left: 10px;
+  display:table;
+
+}
+
+.Adcolumn {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+/******  End ads style *******/
+
+
+
+
+
+/***** START ImageGRID style ******/
+
+.imageGrid{
+  padding:40px;
+  }
+  
+  /* Left column */
+  .leftcolumn {   
+    float: left;
+    width: 66%;
+ }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 34%;
+    padding-left: 20px;
+     }
+   
+   p1 ,p {
+    text-align: left;
+     font-size:12px;
+     padding-left:5px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    
+   p2{
+    text-align: left;
+     font-size:18px;
+     padding-left:5px;
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+
+  .img {
+    background-color: #aaa;
+    width:100%;
+   
+  }
+  
+
+  .card1,.card2,.card3 {
+     background-color: white;
+     margin-top: 10px;
+  }
+  
+  .card4,.card5,.card6,.card7 {
+     background-color: white;
+     padding-bottom: 2px;
+     margin-top: 10px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  a {
+    color: #839690;
+     padding-left:5px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+    
+  }
+
+ /***** End ImageGRID style******/
+
+
+
+
+
+ 
+ 
+
+ /**********  Customer Favorites  ***********/
+
+ .customarFAV{
+  padding: 30px;
+  margin: 5px;
+  background: #edcfc4;
+
+}
+.columnChange {
+  position: relative;
+  display: inline-block;
+  margin:5px;
+  float: left;
+}
+
+.columnChange .img1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:99;
+
+}
+
+
+p{
+text-align: left;
+font-size:18px;
+padding-left:5px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.columnChange:hover .img1 {
+  display: inline
+
+}
+
+.container {
+padding: 0 25px;
+}
+
+.container::after, .row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.shop {
+border: none;
+font-family: 'Montserrat', sans-serif;
+outline: 0;
+display: inline-block;
+padding: 8px;
+color: white;
+background-color: #000;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.shop:hover {
+background-color: pink;
+}
+
+/**********  Customer Favorites  ***********/
+
+
+
+
+ /** Subscribe && email start **/
+ .EmailAcount {
+  padding: 2px;
+ background: #e1b0a2;
+ margin: 5px;
+
+}
+
+ p{
+  text-align: left;
+   font-size:18px;
+   padding-left:10px;
+   font-family: 'Montserrat', sans-serif;
+  }
+  
+   .p1{
+   font-size:11.5px;
+   padding-left: 15px;
+   font-family: 'Montserrat', sans-serif;
+  }
+
+/* Left column */
+.SUBSCRIBRcolumn {   
+  float: left;
+  width: 45%;
+
+  
+}
+
+/* Right column */
+.GMAILcolumn {
+  float: left;
+  width: 55%;
+  padding-left: 10px;
+
+}
+
+
+.cardEmail,.cardSubscrib {
+   background-color:"";
+   padding: 15px;
+   margin-top: 10px;
+}
+
+.EmailAcount :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+label{
+  text-align: left;
+  font-size:13.5px;
+  padding-left:10px;
+  font-family: 'Montserrat', sans-serif;
+  }
+  
+.Submitbutton {
+  color: Salmon;
+  padding: 12px 50px;
+  text-align: center;
+  font-size: 15px;
+  margin: 2px 5px;
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.Submitbutton {
+  background-color: Pink; 
+  color: black; 
+  border: 2px solid Pink;
+}
+
+.Submitbutton:hover {
+  background-color: "";
+  border: 1px solid black;
+}
+
+ .Gmail {
+  color: Salmon;
+  padding: 14px 100px;
+  text-align: left;
+  margin: 5px 2px;
+   border: 1px solid DeepPink;
+
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .SUBSCRIBRcolumn, .GMAILcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+  
+  .Gmail {
+  padding: 14px 200px;
+  margin: 5px 7px;
+
+}
+
+/*button submit*/
+.Submitbutton {
+  padding: 15px 260px;
+  font-size: 12px;
+ margin: 5px 7px;
+
+}
+ } 
+
+/** Subscribe && email End **/
+
+/** Top Rated  */
+
+/*** Top Rated */
+
+/*************  End main page ****************/
+
+
+/************* Start footer **************/
+/* Footer */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+} 
+
+.footer{
+   background: #e1b0a2	;
+   padding: 50px;
+}
+
+.footer .footer_menu{
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto 25px;
+  justify-content: space-between;
+  
+}
+
+.footer .footer_menu .title{
+  margin-bottom: 10px;
+  font-size:19px;
+  color:  #6a6260;
+}
+
+.footer .footer_menu ul li a {
+  display: block;
+  margin-bottom: 6px;
+  font-size:15px;
+  color: #fff;
+}
+
+.footer .footer_menu ul li a:hover{
+  text-decoration: underline;
+}
+
+
+.footer .social_media{
+  text-align: center;
+}
+
+.footer .social_media ul{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer .social_media ul li a {
+  display: block;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+    color: #fefefe;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  line-height: 50px;
+  border-radius: 3px;
+}
+
+
+.footer .social_media ul li a:hover{
+ color: #4a4a4a;
+  transition: color 0.3s ease-in;}
+
+
+
+
+
+ 

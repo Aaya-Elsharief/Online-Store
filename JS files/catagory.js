@@ -1,6 +1,5 @@
  pro =[{
 		"src":  "../media/furnture/furnture2.jpg",
-		
 		"productsName": "Chest of drawers",
 		"product_price": "$130",
 		"product_price_off":"$115",

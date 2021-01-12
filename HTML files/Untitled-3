@@ -1,0 +1,71 @@
+@extends('layouts.app')
+@section('content_head')
+    <title> view product  </title>
+    <link rel="stylesheet" href="/css/product.css" />
+@endsection
+
+@section('contents')
+
+ 
+    <!-- Put images in each below respect to its categories -->
+    <div class="row">
+        <div class="imgcontent">
+            <div class="innerDiv">
+                <h2>{{$product->product_name}}</h2><br/>
+                <label>THE PRODUCING COMPANY: </label><span> {{$product->product_company}} </span></br></br>
+                <label>size: </label><span>{{$product->product_size}} </span></br></br>
+                <label>Market Price: </label><span> {{$product->product_price}} </span></br></br>
+
+                <div class="quantity segoeui-regular-normal-black-38px">
+                    quantity&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;+
+                </div>
+                <div class = "rating">
+                    @for($i=0 ; $i < $product->product_rating;$i++)
+                    <span><i class = "fa fa-star"></i></span>
+                        @endfor
+
+                        @for($i=0 ; $i < 5- $product->product_rating;$i++)
+                            <span><i class = "fa fa-star-o"></i></span>
+                        @endfor
+
+
+                </div>
+            </div>
+            <div class="buyDiv">
+                <button type = "button" class = "btn-cart"> add to cart
+                    <span><i class = "fa fa-plus"></i></span>
+                </button>
+                <button type = "button" class = "btn-buy"> buy now
+                    <span><i class = "fa fa-shopping-cart"></i></span>
+                </button>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="imgDiv">
+            <div class="basic">
+                <img class="big-img" src="{{$image->img1}}"alt="berfume"  width="500" height="500">
+            </div>
+            <div class ="mini-cat">
+
+                <div class="cat-img">
+                    <img src="{{$image->img2}}"  alt="product1" >
+                </div>
+
+                <div class="cat-img">
+                    <img class="catagory-img" src="{{$image->img3}}"  alt="product2" >
+                </div>
+
+                <div class="cat-img">
+                    <img src="{{$image->img4}}"  alt="product3">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+
+@endsection

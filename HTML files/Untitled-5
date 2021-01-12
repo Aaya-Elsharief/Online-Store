@@ -1,0 +1,109 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Cart;
+use App\Category;
+use App\Image;
+use App\Product;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Response;
+use Validator;
+use Auth;
+
+class HomeController extends Controller
+{
+    public function test(){
+
+        dd('sssssssssssssssssssss');
+
+    }
+
+    public function products ($category_id){
+
+        $products=Product::where('category_id',$category_id)->get();
+        return view('categories',[
+        'products'=>$products
+   ]);
+    }
+
+   public function home (){
+
+        $categories=Category::get();
+   return view('home',[
+       'categories'=>$categories
+   ]);
+
+    }
+
+    public function view_product($id){
+        $product=Product::find($id);
+        $images=Image::where('product_id',$id)->first();
+      //dd($images);
+
+        return view('product',[
+            'product'=>$product,
+            'image'=>$images,
+        ]);
+    }
+
+    public function index()
+{
+    //dd("hello!");
+    return view('login');
+}
+
+    public function cartPage(){
+
+        return view('cartPage');
+
+
+    }
+
+
+
+
+    public function checklogin(Request $request)
+    {
+        $this->validate($request, [
+            'email'   => 'required|email',
+            'password'  => 'required|alphaNum|min:3'
+        ]);
+
+
+
+        $user_data = array(
+            'email'  => $request->get('email'),
+            'password' => $request->get('password')
+        );
+
+        if(Auth::attempt($user_data))
+        {
+            return redirect('login/successlogin');
+        }
+        else
+        {
+            return back()->with('error', 'Wrong Login Details');
+        }
+
+    }
+
+    public function successlogin()
+    {
+        return redirect('home');
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('login');
+    }
+
+   public function  addToCart(){
+        dd('asas');
+}
+
+
+
+}
+

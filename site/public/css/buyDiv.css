@@ -1,0 +1,32 @@
+
+.buyform ,.modal-header,.confirm button{
+    background: linear-gradient(+15deg, #e1b0a2, #789ebc);
+   /* border-radius: 12px;
+   /* padding: 20px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+*/
+
+}
+
+.field label{
+    float: left;
+    width: 25%;
+    margin:  6px auto;
+
+}
+.field input{
+    float: left;
+    width: 75%;
+    height: 30px;
+    margin: 6px auto;
+}
+
+.confirm button  {
+    color:black;
+    border-radius: 12px;
+    border:whitesmoke;
+
+}
