@@ -2,6 +2,8 @@
 @section('content_head')
     <title> catagory products </title>
     <link rel="stylesheet" href="/css/Catagory.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/buyDiv.css" />
 
 @endsection
 
@@ -10,8 +12,6 @@
     <div class = "products">
         <div class = "container">
             <h1 class = "lg-title">{{$category->name}}</h1>
-            <p class = "text-light">Products that fall under this category</p>
-
             <div class="con">
 
                 <!-- Single product-->

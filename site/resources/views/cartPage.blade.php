@@ -2,6 +2,9 @@
 @section('content_head')
     <title> catagory products </title>
     <link rel="stylesheet" href="/css/Catagory.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/buyDiv.css" />
+
 
 
 @endsection
@@ -12,8 +15,7 @@
         <div class = "products">
             <div class = "container">
                 <h1 class = "lg-title ">YOUR CART</h1>
-                <p class="text-light ">These are the products that you have added to your CART
-                </p>
+
 
                 <div class="con">
 
@@ -31,7 +33,7 @@
                                 <div id="product-btns" class = "product-btns">
 
                                     <a onclick = "BuyFunction()"  class = "product-name">
-                                        <button id="btn" type = "button" class = "btn-buy btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal"> buy now
+                                        <button id="btn" type = "button" class = "btn-buy " data-bs-toggle="modal" data-bs-target="#exampleModal"> buy now
                                             <span><i class = "fa fa-shopping-cart"></i></span>
                                         </button>
                                     </a>
